@@ -1,0 +1,7 @@
+,sub,harm,cs,node_num,dof_num,PoM,NL,KC
+0,sub,0,c,0,0,p,0,0
+1,sub,0,c,1,0,p,0,0
+2,sub,1,c,0,0,p,0,0
+3,sub,1,c,1,0,p,0,0
+4,sub,1,s,0,0,p,0,0
+5,sub,1,s,1,0,p,0,0
