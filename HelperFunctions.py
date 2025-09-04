@@ -9,7 +9,7 @@ import pyHarm.Systems.ABCSystem
 ## POST-TREATMENT FUNCTIONS THAT ARE USED IN THE TEST CASES
 RATIO_FIG = (15,8)
 
-def get_frf(M:pyHarm.Maestro,sub="m1",node=0,direction=0,deriv:int=0) :
+def get_frf(M:pyHarm.Maestro,sub="m1",node=0,direction=0,deriv:int=0,*args,**kwargs) :
     if M.system.adim : 
         lc, wc = M.system.lc, M.system.wc
     else :
